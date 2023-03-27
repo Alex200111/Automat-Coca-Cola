@@ -1,0 +1,16 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#3#bitc2 01"
+$INOUT 1 1 f1
+$INOUT 5 1 f4
+I 2 "i#7#integerrict-2147483648 2147483647 "
+$OUT 9 2 Rest
+$IN +4 1 FS
+$INOUT +4 1 f0
+$INOUT +4 1 f3
+$INOUT +4 1 f2
+$INOUT +4 1 RM
+$S +4 2 A
+$S +4 2 S_f
+$OUT +4 1 Eliberare_Cola
+$ENDWAVE

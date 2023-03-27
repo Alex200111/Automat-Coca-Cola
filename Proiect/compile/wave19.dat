@@ -1,0 +1,47 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "i#7#integerrict-2147483648 2147483647 "
+$INOUT 1 1 Rest
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$INOUT 5 2 f0
+$S 9 1 A
+$IN +4 2 FS
+I 3 "e#3#bitc2 01"
+$OUT +4 3 Eliberare_Cola
+$INOUT +4 2 f4
+$INOUT +4 2 f2
+$OUT +4 1 B10
+$INOUT +4 2 f1
+$S +4 1 S_f
+$OUT +4 1 B5
+$INOUT +4 3 RM
+$INOUT +4 2 f3
+$ENDTIME 200000
+$WAVES 1 9 29 +8 +4
+=0 T 0
+$VALUES
+V 1
+0
+$END
+$WAVES 21
+*0
+R 1 2 =1 T 100k
+$VALUES
+V 3
+0
+1
+0
+$END
+$WAVES 5 +8 25 +8 49
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 17 45
+*0
+$VALUES
+V 1
+0
+$END
+$ENDWAVE

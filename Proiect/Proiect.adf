@@ -1,0 +1,53 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=Proiect
+
+[Library]
+Proiect=.\Proiect.lib
+
+[$LibMap$]
+Proiect=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+CDebugWatchList=
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=tonomat|behavioural|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/Reset.vhd=-1
+/Stil.vhd=-1
+/Suma.vhd=-1
+/Rest.vhd=-1
+/Waveform Editor 5.awf=-1
+/Tonomat.vhd=-1
+/Waveform Editor 1.awf=-1
+
+[Files.Data]
+.\src\Reset.vhd=VHDL Source Code
+.\src\Stil.vhd=VHDL Source Code
+.\src\Suma.vhd=VHDL Source Code
+.\src\Rest.vhd=VHDL Source Code
+.\src\Waveform Editor 5.awf=Waveform File
+.\src\Tonomat.vhd=VHDL Source Code
+.\src\Waveform Editor 1.awf=Waveform File
+

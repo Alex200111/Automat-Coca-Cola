@@ -1,0 +1,11 @@
+6304
+~E 1 "./src/Reset.vhd" 6 reset
+~A 1 "./src/Reset.vhd" 11 behavioral
+~E 1 "./src/Rest.vhd" 6 dat
+~A 1 "./src/Rest.vhd" 12 behavioural
+~E 1 "./src/Suma.vhd" 6 suma
+~A 1 "./src/Suma.vhd" 11 data
+~E 1 "./src/Stil.vhd" 5 stil
+~A 1 "./src/Stil.vhd" 12 behaviour
+~E 1 "./src/Tonomat.vhd" 5 tonomat
+~A 1 "./src/Tonomat.vhd" 14 behavioural

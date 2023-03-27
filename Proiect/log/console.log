@@ -1,0 +1,239 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  tonomat behavioural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2431 kB (elbread=1070 elab2=311 kernel=1050 sdf=0)
+# 10:24, 20 May 2021
+# Simulation has been initialized
+# Selected Top-Level: tonomat (behavioural)
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+run 100 ns
+# KERNEL: stopped at time: 1400 ns
+run 100 ns
+# KERNEL: stopped at time: 1500 ns
+run 100 ns
+# KERNEL: stopped at time: 1600 ns
+run 100 ns
+# KERNEL: stopped at time: 1700 ns
+run 100 ns
+# KERNEL: stopped at time: 1800 ns
+run 100 ns
+# KERNEL: stopped at time: 1900 ns
+run 100 ns
+# KERNEL: stopped at time: 2 us
+run 100 ns
+# KERNEL: stopped at time: 2100 ns
+run 100 ns
+# KERNEL: stopped at time: 2200 ns
+run 100 ns
+# KERNEL: stopped at time: 2300 ns
+run 100 ns
+# KERNEL: stopped at time: 2400 ns
+run 100 ns
+# KERNEL: stopped at time: 2500 ns
+acom $DSN/src/reset.vhd $DSN/src/stil.vhd $DSN/src/suma.vhd $DSN/src/rest.vhd $DSN/src/tonomat.vhd
+# Compile...
+# File: c:\My_Designs\Proiect_v2\Proiect\src\Reset.vhd
+# Compile Entity "reset"
+# Entity `reset' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "reset"
+# File: c:\My_Designs\Proiect_v2\Proiect\src\Stil.vhd
+# Compile Entity "stil"
+# Entity `stil' has been skipped - no difference detected.
+# Compile Architecture "behaviour" of Entity "stil"
+# File: c:\My_Designs\Proiect_v2\Proiect\src\Suma.vhd
+# Compile Entity "Suma"
+# Entity `Suma' has been skipped - no difference detected.
+# Compile Architecture "data" of Entity "Suma"
+# File: c:\My_Designs\Proiect_v2\Proiect\src\Rest.vhd
+# Compile Entity "dat"
+# Entity `dat' has been skipped - no difference detected.
+# Compile Architecture "behavioural" of Entity "dat"
+# File: c:\My_Designs\Proiect_v2\Proiect\src\Tonomat.vhd
+# Compile Entity "Tonomat"
+# Entity `Tonomat' has been skipped - no difference detected.
+# Compile Architecture "behavioural" of Entity "Tonomat"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom $DSN/src/reset.vhd $DSN/src/stil.vhd $DSN/src/suma.vhd $DSN/src/rest.vhd $DSN/src/tonomat.vhd
+# Compile...
+# File: c:\My_Designs\Proiect_v2\Proiect\src\Reset.vhd
+# Compile Entity "reset"
+# Entity `reset' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "reset"
+# File: c:\My_Designs\Proiect_v2\Proiect\src\Stil.vhd
+# Compile Entity "stil"
+# Entity `stil' has been skipped - no difference detected.
+# Compile Architecture "behaviour" of Entity "stil"
+# File: c:\My_Designs\Proiect_v2\Proiect\src\Suma.vhd
+# Compile Entity "Suma"
+# Entity `Suma' has been skipped - no difference detected.
+# Compile Architecture "data" of Entity "Suma"
+# File: c:\My_Designs\Proiect_v2\Proiect\src\Rest.vhd
+# Compile Entity "dat"
+# Entity `dat' has been skipped - no difference detected.
+# Compile Architecture "behavioural" of Entity "dat"
+# File: c:\My_Designs\Proiect_v2\Proiect\src\Tonomat.vhd
+# Compile Entity "Tonomat"
+# Entity `Tonomat' has been skipped - no difference detected.
+# Compile Architecture "behavioural" of Entity "Tonomat"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2430 kB (elbread=1070 elab2=310 kernel=1050 sdf=0)
+# 10:26, 20 May 2021
+# Simulation has been initialized
+# Selected Top-Level: tonomat (behavioural)
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+run 100 ns
+# KERNEL: stopped at time: 1400 ns
+run 100 ns
+# KERNEL: stopped at time: 1500 ns
+run 100 ns
+# KERNEL: stopped at time: 1600 ns
+run 100 ns
+# KERNEL: stopped at time: 1700 ns
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2430 kB (elbread=1070 elab2=310 kernel=1050 sdf=0)
+# 10:27, 20 May 2021
+# Simulation has been initialized
+# Selected Top-Level: tonomat (behavioural)
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+run 100 ns
+# KERNEL: stopped at time: 1400 ns
+run 100 ns
+# KERNEL: stopped at time: 1500 ns
+run 100 ns
+# KERNEL: stopped at time: 1600 ns
+run 100 ns
+# KERNEL: stopped at time: 1700 ns
+acom $DSN/src/reset.vhd $DSN/src/stil.vhd $DSN/src/suma.vhd $DSN/src/rest.vhd $DSN/src/tonomat.vhd
+# Compile...
+# File: c:\My_Designs\Proiect_v2\Proiect\src\Reset.vhd
+# Compile Entity "reset"
+# Entity `reset' has been skipped - no difference detected.
+# Compile Architecture "behavioral" of Entity "reset"
+# File: c:\My_Designs\Proiect_v2\Proiect\src\Stil.vhd
+# Compile Entity "stil"
+# Entity `stil' has been skipped - no difference detected.
+# Compile Architecture "behaviour" of Entity "stil"
+# File: c:\My_Designs\Proiect_v2\Proiect\src\Suma.vhd
+# Compile Entity "Suma"
+# Entity `Suma' has been skipped - no difference detected.
+# Compile Architecture "data" of Entity "Suma"
+# File: c:\My_Designs\Proiect_v2\Proiect\src\Rest.vhd
+# Compile Entity "dat"
+# Entity `dat' has been skipped - no difference detected.
+# Compile Architecture "behavioural" of Entity "dat"
+# File: c:\My_Designs\Proiect_v2\Proiect\src\Tonomat.vhd
+# Compile Entity "Tonomat"
+# Entity `Tonomat' has been skipped - no difference detected.
+# Compile Architecture "behavioural" of Entity "Tonomat"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+# Simulation has been stopped

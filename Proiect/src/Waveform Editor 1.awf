@@ -1,0 +1,193 @@
+$WAVE4
+$RESOLUTION 1000
+$ENDTIME 1700000
+I 1 "i#7#integerrict-2147483648 2147483647 "
+$S 10 1 A
+$OUT 4 1 B10
+$OUT 5 1 B5
+$OUT 2 1 B50
+I 2 "e#3#bitc2 01"
+$OUT 9 2 Eliberare_Cola
+I 3 "e#9#std_logicc9 UX01ZWLH-"
+$INOUT 7 3 f0
+$INOUT 8 3 f1
+$INOUT +3 3 f2
+$INOUT 6 3 f3
+$INOUT +6 3 f4
+$IN +1 3 FS
+$S +1 2 res
+$INOUT 1 1 Rest
+$INOUT 3 2 RM
+$S 15 1 S_f
+P 0 1-15 CS "0"
+P 0 12 Stimulator "CLK:FRM:Override:200.000000;2;1;0;50;1:Clock:1:"
+P 0 7 Stimulator "KEY:KEY:Override:49/0,1:1:1:"
+P 0 8 Stimulator "KEY:KEY:Override:50/0,1:2:1:"
+P 0 +3 Stimulator "KEY:KEY:Override:51/0,1:3:1:"
+P 0 6 Stimulator "KEY:KEY:Override:52/0,1:4:1:"
+P 0 +7 Stimulator "KEY:KEY:Override:53/0,1:5:1:"
+P 0 3 Stimulator "KEY:KEY:Override:54/0,1:6:1:"
+$WAVES 1
+=0 T 0
+=1 D 500k 3
+=2 D 100k 3
+=3 D 200k 3
+=4 D 100k 4
+$VALUES
+V 5
+0
+15
+0
+60
+0
+$END
+$WAVES 2
+*0
+=5 D 800k 4
+=6 D 100k 5
+$VALUES
+V 3
+0
+1
+0
+$END
+$WAVES 4
+*0
+=7 D 500k 4
+*4
+=8 D 200k 4
+*6
+$VALUES
+R 2 2 0 1
+V 1
+0
+$END
+$WAVES 5
+*0
+*7
+*4
+$VALUES
+V 3
+0
+1
+0
+$END
+$WAVES +5
+*0
+=9 D 100k 2
+R 1 2 *2
+=10 D 400k 3
+*2
+=11 D 200k 2
+*2
+$VALUES
+V 8
+0
+5
+10
+50
+10
+0
+5
+0
+$END
+$WAVES +5
+*0
+=12 D 200k 1
+R 1 7 =13 D 100k 1
+*12
+$VALUES
+V 10
+0
+5
+15
+65
+115
+0
+50
+60
+0
+5
+$END
+$WAVES 3
+*0
+=14 D 800k 2
+*2
+$VALUES
+V 3
+0
+1
+0
+$END
+$WAVES 9
+*0
+*1
+$VALUES
+V 2
+0
+1
+$END
+$WAVES +5
+*0
+=15 D 0 1
+=16 D 500k 2
+*9
+=17 D 300k 2
+$VALUES
+R 2 2 0 1
+V 1
+0
+$END
+$WAVES 6
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 7
+*0
+*13
+*9
+=18 D 800k 1
+=19 D 300k 1
+$VALUES
+R 2 2 0 1
+V 1
+0
+$END
+$WAVES 8
+*0
+*11
+*9
+=20 D 400k 2
+*9
+=21 D 500k 1
+*12
+$VALUES
+R 2 3 0 1
+V 1
+0
+$END
+$WAVES +3
+*0
+*17
+*20
+*18
+$VALUES
+R 2 2 0 1
+$END
+$WAVES +1
+*0
+R 1 17 =22 T 100k
+$VALUES
+R 2 9 0 1
+$END
+$WAVES +1
+*0
+=23 D 1100k 2
+$VALUES
+V 2
+0
+1
+$END
+$ENDWAVE
